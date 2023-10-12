@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p&family=Poppins:wght@100;200;400&display=swap');
+
+.skill-container{
+    font-family: 'Poppins',sans-serif;
+    margin-bottom: 100px;
+  }
+
+.skill-content{
+    position: absolute;
+    left: 200px;
+    right: 200px;
+} 
+.skill-p{
+    text-align: center;
+}
+.skill-h2{
+    margin-top: 30px;
+    text-align: center;
+    background-color: #1D2331;
+    color: #16CE97;
+    font-family: sans-serif;
+    padding: 5px;
+}
+.skill-project, .skill-project li{
+    margin-left: 40px;
+}

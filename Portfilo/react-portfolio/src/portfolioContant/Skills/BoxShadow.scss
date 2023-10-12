@@ -1,0 +1,74 @@
+.box {
+    height: 180px;
+    width: 180px;
+    background-color: #e0dfdf;
+    border-radius: 8px;
+    display: inline-block;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    transition: 0.3s ease-in-out;
+    position: relative;
+}
+
+.box:hover {
+    background-color: #fff;
+    cursor: pointer
+}
+
+.skill-image {
+    height: 100px;
+    width: 100px;
+    margin-top: 30px;
+    margin-left: 40px;
+    transition: .3s ease-in-out;
+}
+
+.skill-p1 {
+    display: none;
+    transition: .3s ease-in-out;
+}
+
+.skill-p1-name1 {
+    font-size: 16px;
+    color: orangered;
+}
+
+.skill-p1-name2 {
+    font-size: 13px;
+}
+.skill-box-container{
+    height: 200px;
+    width: 100%;
+}
+.outer{
+height: 500px;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-wrap: wrap;
+
+}
+.box:hover{
+.skill-image {
+    position: relative;
+    padding: 16px;
+    transform: scale(1);
+    border: 3px solid hsl(0, 0%, 0%);
+    border: 3px solid pa;
+    
+    border-radius: 50%;   
+    cursor: pointer;
+    bottom: 20px;
+    overflow: hidden;
+}
+.skill-p1{
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: sans-serif;
+    position: relative;
+    top: -10px;
+    left: 0px;
+}
+}
